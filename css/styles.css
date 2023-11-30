@@ -8,7 +8,7 @@
     height: 100vh;
     width: 100vw;
     display: flex;
-    background: black;
+    background: #374151;
 }
 
 .cover, .details {
@@ -16,12 +16,59 @@
 }
 
 .cover{
-    width: 35%;
+    width: 40%;
     background-image: url("../img/andre-benz-ZoWPMjUZsBs-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+}
+
+.banner{
+    width: 100%;
+    height: 20%;
+    background-color: #142c37;
+    margin-top: 30%;
+    opacity: 0.65;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-text {
+    color: #fdfdfc;
+    font-size: 2rem;
+    font-weight:bolder;
+    text-shadow: 0 0 10px #f4dbd8;
+    padding: 0;
+    margin-right: 5%;
+}
+
+.logo {
+    background-image: url('./../img/fox_4.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 30%;
+    padding: 0;
+    margin-left: 5%;
 }
 
 .details {
-    width: 65%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.description, .bottom {
+    height: 33%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.form-container {
+    height: 34%;
+    width: 100%;
+    background-color: #fdfdfc;
+    ;
 }
