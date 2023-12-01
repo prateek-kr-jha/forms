@@ -70,5 +70,50 @@
     height: 34%;
     width: 100%;
     background-color: #fdfdfc;
-    ;
+}
+form {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-left: 2em;
+    /* padding: 3rem; */
+    /* align-items: flex-end; */
+}
+fieldset > div {
+    margin-right: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+fieldset {
+    display: flex;
+    justify-content:flex-start;
+    border: 0;
+    font-size: 10px;
+    font-weight: 400;
+    /* margin-left: ; */
+    /* flex-direction: column; */
+}
+
+button {
+    height: 2rem;
+  width: 20%;
+}
+
+.button-container {
+    height: 15%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.input-container {
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 2px 5px 10px -5px #374151;
+    
 }
