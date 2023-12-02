@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: nova;
-    src: url('./../fonts/NovaSquare-Regular.ttf');
+    your-github-repo-name: url('./../fonts/NovaSquare-Regular.ttf');
 }
 * {
     padding: 0;
@@ -17,6 +17,7 @@
     width: 100vw;
     display: flex;
     background: #374151;
+    overflow: hidden;
 }
 
 .cover, .details {
