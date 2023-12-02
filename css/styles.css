@@ -61,13 +61,13 @@
 }
 
 .description, .bottom {
-    height: 33%;
+    height: 30%;
     width: 100%;
     background-color: whitesmoke;
 }
 
 .form-container {
-    height: 34%;
+    height: 40%;
     width: 100%;
     background-color: #fdfdfc;
 }
@@ -78,12 +78,12 @@ form {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding-left: 2em;
+    /* padding-left: 2em; */
     /* padding: 3rem; */
     /* align-items: flex-end; */
 }
 fieldset > div {
-    margin-right: 3rem;
+    /* margin-right: 3rem; */
     display: flex;
     flex-direction: column;
 }
@@ -98,12 +98,13 @@ fieldset {
 }
 
 button {
-    height: 2rem;
+    height: 90%;
   width: 20%;
 }
 
 .button-container {
-    height: 15%;
+    margin-top: 10px;
+    height: 2rem;
     width: 100%;
     background-color: whitesmoke;
 }
@@ -114,6 +115,11 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    box-shadow: 2px 5px 10px -5px #374151;
-    
+    /* box-shadow: 0px 10px 5pxpx  #374151;   */
+}
+p {
+    padding-left: 2em;
+}
+form div {
+    padding-left: 2rem;
 }
