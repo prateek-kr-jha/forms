@@ -1,8 +1,20 @@
+@font-face {
+    font-family: odin;
+    src: url('./../fonts/Norse-Bold.otf');
+}
+@font-face {
+    font-family: nova;
+    src: url('./../fonts/NovaSquare-Regular.ttf');
+}
 * {
     padding: 0;
     margin: 0;
-}
+    font-family: 'nova', 'Courier New', Courier, monospace;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    ; */
+    /* font-family: ; */
 
+}
 
 .main {
     height: 100vh;
@@ -41,6 +53,7 @@
     text-shadow: 0 0 10px #f4dbd8;
     padding: 0;
     margin-right: 5%;
+    font-family: odin;
 }
 
 .logo {
@@ -64,6 +77,15 @@
     height: 30%;
     width: 100%;
     background-color: whitesmoke;
+}
+
+.description {
+    display: flex;
+    justify-content: baseline;
+    align-items: end;
+    /* margin-bottom: 10%*/
+    padding-bottom: 3%;
+    font-family: 'nova';
 }
 
 .form-container {
@@ -122,4 +144,7 @@ p {
 }
 form div {
     padding-left: 2rem;
+}
+.bottom{
+    padding-top: 10px;
 }
