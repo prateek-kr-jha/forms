@@ -10,10 +10,6 @@
     padding: 0;
     margin: 0;
     font-family: 'nova', 'Courier New', Courier, monospace;
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-    ; */
-    /* font-family: ; */
-
 }
 
 .main {
@@ -83,7 +79,6 @@
     display: flex;
     justify-content: baseline;
     align-items: end;
-    /* margin-bottom: 10%*/
     padding-bottom: 3%;
     font-family: 'nova';
 }
@@ -100,12 +95,8 @@ form {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    /* padding-left: 2em; */
-    /* padding: 3rem; */
-    /* align-items: flex-end; */
 }
 fieldset > div {
-    /* margin-right: 3rem; */
     display: flex;
     flex-direction: column;
 }
@@ -115,8 +106,6 @@ fieldset {
     border: 0;
     font-size: 10px;
     font-weight: 400;
-    /* margin-left: ; */
-    /* flex-direction: column; */
 }
 
 button {
@@ -137,7 +126,6 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    /* box-shadow: 0px 10px 5pxpx  #374151;   */
 }
 p {
     padding-left: 2em;
@@ -147,4 +135,20 @@ form div {
 }
 .bottom{
     padding-top: 10px;
+}
+input {
+    border: 1px solid grey;
+    height: 1.3rem;
+    border-radius: 3px;
+}
+input:focus {
+    background-color:azure;
+    box-shadow: 3px 3px 5px gray;
+}
+
+input:invalid {
+    border: 1px solid grey;
+}
+input:invalid:required {
+    border: 1px solid rgb(241, 6, 6);
 }

@@ -36,32 +36,32 @@
                             <p>Let's do this!</p>
                             <fieldset>
                                 <div>
-                                    <label>FIRST NAME</label>
-                                    <input type="text">
+                                    <label for="first_name">FIRST NAME</label>
+                                    <input type="text" id="first_name" name="first_name" required>
                                 </div>
                                 <div>
-                                    <label>LAST NAME</label>
-                                    <input type="text">
-                                </div>
-                            </fieldset>
-                            <fieldset>
-                                <div>
-                                    <label>EMAIL</label>
-                                    <input type="text">
-                                </div>
-                                <div>
-                                    <label>PHONE NUMBER</label>
-                                    <input type="text">
+                                    <label for="last_name">LAST NAME</label>
+                                    <input type="text" id="last_name" name="last_name" required>
                                 </div>
                             </fieldset>
                             <fieldset>
                                 <div>
-                                    <label>Password</label>
-                                    <input type="text">
+                                    <label for="email_id">EMAIL</label>
+                                    <input type="email" name="email_id" id="email_id"required >
                                 </div>
                                 <div>
-                                    <label for="">Confirm Password</label>
-                                    <input type="text">
+                                    <label for="phone_number">PHONE NUMBER</label>
+                                    <input type="tel" id="phone_number" name="phone_number" required pattern="[1-9][0-9]{9}">
+                                </div>
+                            </fieldset>
+                            <fieldset>
+                                <div>
+                                    <label for="password">Password</label>
+                                    <input class="error" type="password" id="password" name="password" minlength="8" maxlength="30" required>
+                                </div>
+                                <div>
+                                    <label for="confirm_password">Confirm Password</label>
+                                    <input class="error" type="password" id="confirm_password" name="confirm_password" minlength="8" maxlength="30" required>
                                 </div>
                             </fieldset>
                         </div>
